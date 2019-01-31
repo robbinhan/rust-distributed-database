@@ -1,0 +1,26 @@
+[package]
+name = "rust-server"
+version = "0.1.0"
+authors = ["韩斌 <hanb@kingnet.com>"]
+edition = "2018"
+
+[dependencies]
+# iron = "0.6.0"
+# router = "0.6.0"
+# time = "0.1.42"
+# bodyparser = "0.8.0"
+
+bytes = "0.4"
+futures = "0.1"
+env_logger = "*"
+
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+json = "*"
+
+actix = "0.7"
+actix-web = "^0.7"
+
+
+wal-rs = "1.0.2"
